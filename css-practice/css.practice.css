@@ -1,0 +1,58 @@
+body{
+  font-family: monospace;
+
+}
+h1{
+  color: blue;
+}
+h2{
+  color: black;
+
+}
+h1:hover {
+    background-color: yellow;
+    cursor: hand;
+}
+
+p{
+  text-indent: 4cm;
+}
+ul ,li{color:blue;}
+ul li{color:green;}
+
+.img{
+  position: relative;
+  /* This move the pics up */
+  margin-top: 65px;
+  /* This move the pics left */
+  margin-left: 45px;
+  /* This makes the border round */
+  border-radius: 120px;
+  /* The border width stlye and color */
+  border:  3px solid red;
+  height: 350;
+  width: 250px;
+  /* This contorls how far way the border is to the pics */
+padding: 3px;
+}
+#young{
+  position: absolute;
+  font-size: 30px;
+  /* controls how high text is */
+  top: 75px;
+  /* contorls  how left the text is */
+left: -65px;;
+}
+#old {
+  position: absolute;
+  font-size: 30px;
+  /* controls how high text is */
+  top: 75px;
+  /* contorls  how left the text is */
+  left: 270px;
+}
+
+
+
+
+}
